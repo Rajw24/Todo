@@ -51,13 +51,13 @@ function App() {
 
       <Header title="Todos" showSearchBox={false}/>
       <Routes>
-        <Route exact path='/' element={
+        <Route exact path='/Todo' element={
           <>
             <AddTodo addTodo={addTodo}/>
             <Todos TodoList={TodoList} onDelete={onDelete}/>
           </>    
         }/>
-        <Route exact path='/about' element={<About/>}>
+        <Route exact path='/Todo/about' element={<About/>}>
         </Route>
       </Routes>
       <Footer/>
