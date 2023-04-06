@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <>
       <div className="container-fluid bg-dark text-light p-1 pt-2" style={footerstyle}>
-        <p className="text-center">Copyright &copy; www.todo.com</p>
+        <p className="text-center">Copyright &copy;: rajw24.github.io/Todo/</p>
       </div>
     </>
   )
